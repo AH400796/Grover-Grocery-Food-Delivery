@@ -1,35 +1,25 @@
 body {
-  font-family: $font-text-general;
+  font-family: $font-primary;
   font-style: normal;
 
-  background-color: $color-white-txt-bg;
+  background-color: $color-background-white;
   color: $color-text-primary;
-
-  &.modal-open {
-    overflow: hidden;
-  }
-
-  @media screen and (max-width: 767.98px) {
-    &.mobmmenu-open {
-      overflow: hidden;
-    }
-  }
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-}
+// body {
+//   display: flex;
+//   flex-direction: column;
+// }
 
-body,
-html {
-  height: 100%;
-}
+// body,
+// html {
+//   height: 100%;
+// }
 
-.content {
-  flex: 1 0 auto;
-}
+// .content {
+//   flex: 1 0 auto;
+// }
 
-.stiky-footer {
-  flex-shrink: 0;
-}
+// .stiky-footer {
+//   flex-shrink: 0;
+// }

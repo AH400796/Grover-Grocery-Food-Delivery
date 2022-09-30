@@ -1,20 +1,26 @@
-.hero__btn {
-  padding-left: 24px;
-  padding-right: 24px;
-
-  @media screen and (min-width: 1200px) {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-
+.order__button {
   @extend %button;
+
+  margin-right: 34px;
 }
 
-.callback__btn {
-  padding-left: 28px;
-  padding-right: 28px;
+.order-process__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+  width: 70px;
+  height: 70px;
 
-  @extend %button;
+  background: $color-background-white;
+  box-shadow: $shadow-order-process-btn;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.button-icon {
+  fill: $color-accent-third;
 }
 
 .subscription__btn {
@@ -41,17 +47,17 @@
   padding: 6px;
 
   border-radius: 50%;
-  background: $color-white-txt-bg;
-  border: 1px solid $color-shade-of-black;
+  // background: $color-white-txt-bg;
+  // border: 1px solid $color-shade-of-black;
 
   cursor: pointer;
 }
 
 .modal__btn-icon {
-  @include transition(fill);
+  // @include transition(fill);
 
   .modal__close-btn:hover & {
-    fill: $color-accent;
+    // fill: $color-accent;
   }
 }
 
@@ -67,22 +73,22 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: $color-text-secondary;
-  background-color: $color-background-secondary;
+  // color: $color-text-secondary;
+  // background-color: $color-background-secondary;
 
   border-radius: 4px;
   border: none;
 
   cursor: pointer;
 
-  @include transition-3(background-color, color, box-shadow);
+  // @include transition-3(background-color, color, box-shadow);
 
-  &:hover,
-  &:focus {
-    color: $color-white-txt-bg;
-    background-color: $color-accent;
-    box-shadow: $shadow-filter-btn-active;
-  }
+  // &:hover,
+  // &:focus {
+  //   // color: $color-white-txt-bg;
+  //   // background-color: $color-accent;
+  //   // box-shadow: $shadow-filter-btn-active;
+  // }
 }
 
 .mobile-menu__button {

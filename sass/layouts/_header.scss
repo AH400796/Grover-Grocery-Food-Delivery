@@ -1,13 +1,19 @@
-.header {
-  position: relative;
+// .header {
+//   position: relative;
 
-  border-bottom: 1px solid $color-header-border;
-}
+//   border-bottom: 1px solid $color-header-border;
+// }
 
-.header__container {
-  display: flex;
-}
+.header__section {
+  padding-top: 32px;
+  padding-bottom: 32px;
 
-.header__container.mobmmenu-open {
-  width: 100vw;
+  box-shadow: $shadow-header;
 }
+// .header__container {
+//   display: flex;
+// }
+
+// .header__container.mobmmenu-open {
+//   width: 100vw;
+// }
